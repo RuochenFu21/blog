@@ -1,5 +1,8 @@
 body {
-  font: 62.5% Palatino, "Times New Roman", serif;
+  font:
+    62.5% Palatino,
+    "Times New Roman",
+    serif;
 }
 
 div {
@@ -15,8 +18,8 @@ h1 {
   font-size: 3.3em;
   font-weight: normal;
   text-transform: uppercase;
-  letter-spacing: .05em;
-  word-spacing: .2em;
+  letter-spacing: 0.05em;
+  word-spacing: 0.2em;
 }
 h3 {
   margin-bottom: 5px;
@@ -42,42 +45,44 @@ nav {
   font-size: 1.5em;
   color: #999;
 }
-.description{
+.center {
+  text-align: center;
+}
+.description {
   color: #999;
   font-size: 1.2em;
   font-style: italic;
   margin: 18px auto 10px;
   padding: 0 0 13px;
   width: 400px;
-  text-align: center
+  text-align: center;
 }
-.author{
+.author {
   color: #999;
   font-size: 1.2em;
   font-style: italic;
   margin: 0px auto 10px;
   padding: 0 0 13px;
   width: 400px;
-  text-align: center
-
+  text-align: center;
 }
-.image{
+.image {
   color: #999;
   font-size: 1.2em;
   font-style: italic;
   margin: 0px auto 0px;
   padding: 0 0 0;
   width: 400px;
-  text-align: center
+  text-align: center;
 }
-.image-desc{
+.image-desc {
   color: #555;
   font-size: 1.3em;
   font-style: italic;
   margin: 0px auto 10px;
   padding: 0 0 13px;
   width: 400px;
-  text-align: center
+  text-align: center;
 }
 img {
   max-width: 100%;
@@ -85,7 +90,7 @@ img {
   margin: 5px auto;
   border: 1px solid #ccc;
 }
-.info{
+.info {
   color: #999;
   font-size: 1.2em;
   font-style: italic;
@@ -100,17 +105,17 @@ img {
 
 .separator::before,
 .separator::after {
-  content: '';
+  content: "";
   flex: 1;
   border-bottom: 1px solid gray;
 }
 
 .separator:not(:empty)::before {
-  margin-right: .25em;
+  margin-right: 0.25em;
 }
 
 .separator:not(:empty)::after {
-  margin-left: .25em;
+  margin-left: 0.25em;
 }
 a {
   color: black;
@@ -122,9 +127,9 @@ a :hover {
 
 .recent-post {
   color: gray !important;
-  font-style: italic;    
+  font-style: italic;
 }
 
 .recent-post-date {
   color: darkgray !important;
-} 
+}
